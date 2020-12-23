@@ -16,10 +16,42 @@ body {
     font-family: abeezee,sans-serif;
     color: #151515;
     min-width: 400px;
+    background: #FFF
 }
 nav {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee !important;
+}
+nav img {
+  height: 2rem !important;
 }
 nav div:nth-child(2) { 
   display: none 
+}
+
+
+a { color: #7437d0; text-decoration: underline; transition: 0.3s; }
+a:hover, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #151515; transition: 0.3s; }
+p > a, p > a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a.brand.williambargent { text-decoration: none; transition: 0.3s; }
+p.text-small { font-size: 0.8em; text-transform: uppercase; }
+h1 { 
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 1.17em;
+}
+h1, h2,h3,h4,h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+h1:after, h2:after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #7437d0;
 }
